@@ -8,9 +8,10 @@ const shapes = require('./lib/shapes');
 
 //This function will take all the information from the user and create the SVG file
 function generateSVG(text, textColor, shape, shapeColor) {
+  const shapeTemplate = shapes[shape].replace('ShapeColor', shapeColor);
   const svgContent = `
     <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
-      ${shapes[shape]}
+      ${shapeTemplate}
       <text x="150" y="100" font-size="20" fill="${textColor}" text-anchor="middle">${text}</text>
     </svg>
   `;
@@ -48,6 +49,7 @@ async function genlogo() {
   ]);
 // This will call the generateSVG function with the answers from the user passing the text, textColor, shape and shapeColor
   generateSVG(answers.text, answers.textColor, answers.shape, answers.shapeColor);
+  console.log(("generateSVG answers",answers.text, answers.textColor, answers.shape, answers.shapeColor))
 }
 // Call the main function to start the program when Index.js is run
 genlogo();
