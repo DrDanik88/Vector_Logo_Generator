@@ -28,9 +28,9 @@
   Run node index.js, answer the questions, and then receive the logo.svg file.
   <br>
   You can see 3 examples in the examples folder of this page.
- [Youtube Video Link](https://youtu.be/UM5YD-H3Ef4)
+ [Youtube Video Link](https://youtu.be/lFnmreVT-cg)
  <br> Click image to open GitHub video
-[<img src="./assets/screenshot.JPG">](https://github.com/DrDanik88/CLI-Readme-Generator/assets/133409041/bcdd6925-43d8-417d-ae70-38568b966c2b)
+[<img src="./screenshot.JPG">](https://youtu.be/lFnmreVT-cg)
 
  
   ## Credits
