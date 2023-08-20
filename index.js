@@ -13,7 +13,7 @@ function generateSVG(text, textColor, shape, shapeColor) {
   const svgContent = `
     <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
       ${shapeTemplate}
-      <text x="150" y="100" font-size="20" fill="${textColor}" text-anchor="middle">${text}</text>
+      <text x="150" y="150" font-size="60" fill="${textColor}" text-anchor="middle">${text}</text>
     </svg>
   `;
 
