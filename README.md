@@ -29,8 +29,10 @@
   <br>
   You can see 3 examples in the examples folder of this page.
  [Youtube Video Link](https://youtu.be/lFnmreVT-cg)
- <br> Click image to open GitHub video
+ <br> Click image to open video
 [<img src="./screenshot.JPG">](https://youtu.be/lFnmreVT-cg)
+<br>
+
 
  
   ## Credits
@@ -45,6 +47,10 @@
   you can run npx jest shapes.test.js
   <br>
   To make sure all the shapes have the right size and the fill color can be changed using ShapeColor variable
+  <br>
+  Here is the link for the JEST tests to make sure shapes are the right size and the color can be changed using the variable ShapeColor
+<br>
+https://youtu.be/-TEbI1w0scY
   
   ## Questions
   DrDanik88
