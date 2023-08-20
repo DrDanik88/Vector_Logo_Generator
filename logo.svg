@@ -1,6 +1,6 @@
 
     <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
-      <polygon points="150,50 100,150 200,150" fill="blue" />
-      <text x="150" y="150" font-size="60" fill="white" text-anchor="middle">lll</text>
+      <polygon points="150, 18 244, 182 56, 182" fill="blue" />
+      <text x="150" y="150" font-size="60" fill="white" text-anchor="middle">fff</text>
     </svg>
   
